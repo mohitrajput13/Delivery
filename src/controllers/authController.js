@@ -75,19 +75,25 @@ export const login = async (req, res) => {
             });
         }
 
+        // Check if user exists
         let user = await User.findOne({ mobile, country_code });
+
+        // If user does NOT exist → send message only, do NOT send OTP
         if (!user) {
-            user = new User({ mobile, country_code });
+            return res.status(404).json({
+                status: "error",
+                message: "User does not exist. Please register first."
+            });
         }
 
+        // Generate OTP for existing user
         const otp = Math.floor(100000 + Math.random() * 900000).toString();
+        
         user.otp = otp;
         user.otpExpires = Date.now() + 5 * 60 * 1000;
         await user.save();
 
-        console.log("OTP:", otp);
-
-        res.json({
+        return res.json({
             status: "success",
             message: "OTP sent successfully",
             data: otp
@@ -95,12 +101,13 @@ export const login = async (req, res) => {
 
     } catch (error) {
         logger.error("Login error:", error);
-        res.status(500).json({
+        return res.status(500).json({
             status: "error",
             message: "Error sending OTP"
         });
     }
 };
+
 
 export const verifyOtp = async (req, res) => {
     try {
