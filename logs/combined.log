@@ -1,0 +1,15 @@
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.przreuu.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.przreuu.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.przreuu.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:293:17)","syscall":"querySrv","timestamp":"2025-11-26T11:19:51.780Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-26T11:22:45.918Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-26T11:22:45.924Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T06:55:18.546Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T06:55:18.552Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T07:01:18.159Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T07:01:18.166Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:07:06:29 +0000] \"POST /delivery/auth/register HTTP/1.1\" 201 499 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-27T07:06:29.606Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:07:08:26 +0000] \"POST /delivery/auth/login HTTP/1.1\" 200 70 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-27T07:08:26.442Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:07:09:19 +0000] \"POST /delivery/auth/verify HTTP/1.1\" 404 160 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-27T07:09:19.010Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:07:09:20 +0000] \"POST /delivery/auth/verify HTTP/1.1\" 404 160 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-27T07:09:20.777Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:07:10:03 +0000] \"POST /delivery/auth/verify-otp HTTP/1.1\" 400 53 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-27T07:10:03.406Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:07:10:52 +0000] \"POST /delivery/auth/verify-otp HTTP/1.1\" 200 528 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-27T07:10:52.304Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T08:08:06.635Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T08:08:06.653Z"}
