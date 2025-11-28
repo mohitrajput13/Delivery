@@ -4,6 +4,7 @@ const config = {
     port: process.env.PORT || 3000,
     mongoUri: process.env.MONGODB_URI || 'mongodb+srv://mohitrajputntf:Admin%4012345@cluster0.lyrp7km.mongodb.net/ai-voice',
     jwtSecret: process.env.JWT_SECRET || 'your-secret-key',
+    jwtRefreshSecret: process.env.JWT_REFRESH_SECRET || 'your-secret-key',
     logLevel: process.env.LOG_LEVEL || 'info',
     FRONTEND_URL:process.env.FRONTEND_URL,
     email: {

@@ -13,3 +13,96 @@
 {"level":"info","message":"127.0.0.1 - - [27/Nov/2025:07:10:52 +0000] \"POST /delivery/auth/verify-otp HTTP/1.1\" 200 528 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-27T07:10:52.304Z"}
 {"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T08:08:06.635Z"}
 {"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T08:08:06.653Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T11:06:42.228Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T11:06:42.235Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T11:28:21.986Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T11:28:21.992Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:11:52:08 +0000] \"POST /delivery/auth/register HTTP/1.1\" 404 162 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T11:52:08.623Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:11:53:22 +0000] \"POST /delivery/auth/register HTTP/1.1\" 404 162 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T11:53:22.016Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:11:53:45 +0000] \"POST /delivery/auth/register HTTP/1.1\" 404 162 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T11:53:45.808Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:11:54:13 +0000] \"POST /Delivery/delivery/auth/register HTTP/1.1\" 400 63 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T11:54:13.424Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:11:58:57 +0000] \"POST /Delivery/delivery/auth/register HTTP/1.1\" 400 63 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T11:58:57.549Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T11:59:51.846Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T11:59:51.852Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:11:59:55 +0000] \"POST /Delivery/delivery/auth/register HTTP/1.1\" 201 496 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T11:59:55.739Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:12:00:06 +0000] \"POST /delivery/auth/login HTTP/1.1\" 404 159 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T12:00:06.515Z"}
+{"level":"error","message":"Login error: jwt.sign is not a function","stack":"TypeError: jwt.sign is not a function\n    at login (file:///D:/Mohit/DeliveryBackend/src/controllers/authController.js:111:31)","timestamp":"2025-11-27T12:01:32.486Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:12:01:32 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 500 49 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T12:01:32.488Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:01:54.136Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:01:54.142Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:05:56.117Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:05:56.126Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:12:06:01 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 200 307 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T12:06:01.862Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:12:06:29 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T12:06:29.891Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:31:53.110Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:31:53.117Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:31:57.615Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:31:57.621Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:39:18.277Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:39:18.286Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:39:28.898Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:39:28.905Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:39:39.319Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:39:39.325Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:39:40.979Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:39:40.986Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:41:14.481Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:41:14.487Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:41:41.520Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:41:41.526Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:42:21.053Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:42:21.060Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:43:32.783Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:43:32.789Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:47:18.569Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:47:18.575Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:47:40.818Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:47:40.823Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:47:47.538Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:47:47.544Z"}
+{"level":"error","message":"Login error: secretOrPrivateKey must have a value","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (D:\\Mohit\\DeliveryBackend\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at generateTokens (file:///D:/Mohit/DeliveryBackend/src/services/generateTokens.js:10:28)\n    at login (file:///D:/Mohit/DeliveryBackend/src/controllers/authController.js:212:51)","timestamp":"2025-11-27T12:50:28.028Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:12:50:28 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 500 49 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T12:50:28.035Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:56:13.957Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:56:13.963Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T12:57:14.279Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T12:57:14.286Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:12:57:17 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 200 719 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T12:57:17.186Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:12:57:51 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T12:57:51.159Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:12:58:22 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T12:58:22.046Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:12:59:00 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T12:59:00.483Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T13:13:42.451Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T13:13:42.459Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:13:55 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:13:55.330Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T13:14:29.277Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T13:14:29.288Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:14:41 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:14:41.586Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T13:14:58.809Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T13:14:58.815Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:15:41 +0000] \"POST /Delivery/delivery/auth/verify-otp HTTP/1.1\" 400 53 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:15:41.929Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:15:48 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:15:48.801Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:15:57 +0000] \"POST /Delivery/delivery/auth/verify-otp HTTP/1.1\" 200 722 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:15:57.489Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T13:16:23.796Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T13:16:23.802Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T13:16:41.336Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T13:16:41.342Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:20:49 +0000] \"POST /Delivery/delivery/auth/refresh_token HTTP/1.1\" 404 176 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:20:49.387Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:21:53 +0000] \"POST /Delivery/delivery/auth/refresh_token HTTP/1.1\" 404 176 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:21:53.244Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:22:12 +0000] \"POST /Delivery/delivery/auth/refresh_token HTTP/1.1\" 404 176 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:22:12.324Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T13:22:39.773Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T13:22:39.779Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T13:22:45.441Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T13:22:45.448Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T13:23:05.578Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T13:23:05.584Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:23:08 +0000] \"POST /Delivery/delivery/auth/refresh_token HTTP/1.1\" 401 63 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:23:08.782Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:23:18 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:23:18.020Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:23:30 +0000] \"POST /Delivery/delivery/auth/verify_otp HTTP/1.1\" 200 722 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:23:30.707Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:23:43 +0000] \"POST /Delivery/delivery/auth/refresh_token HTTP/1.1\" 401 63 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:23:43.585Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:23:45 +0000] \"POST /Delivery/delivery/auth/refresh_token HTTP/1.1\" 401 63 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:23:45.705Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-27T13:24:43.426Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-27T13:24:43.433Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:24:53 +0000] \"POST /Delivery/delivery/auth/login HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:24:53.527Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:25:02 +0000] \"POST /Delivery/delivery/auth/verify_otp HTTP/1.1\" 200 722 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:25:02.829Z"}
+{"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:25:16 +0000] \"POST /Delivery/delivery/auth/refresh_token HTTP/1.1\" 200 255 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:25:16.809Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T08:47:27.492Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T08:47:27.498Z"}

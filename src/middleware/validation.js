@@ -2,9 +2,10 @@ import { z } from 'zod';
 
 const addressSchema = z.object({
     addressLine: z.string().min(1, 'Address line is required'),
-    lat: z.number(),
-    lng: z.number()
+    lat: z.string().transform(Number),
+    lng: z.string().transform(Number)
 });
+
 
 const registerSchema = z.object({
     first_name: z.string().min(1, 'First name is required'),
@@ -16,10 +17,17 @@ const registerSchema = z.object({
     address: z.array(addressSchema).optional()
 });
 
-const loginSchema = z.object({
-    country_code: z.string().min(1, 'Country code is required'),
-    mobile: z.string().min(1, 'Mobile number is required')
-});
+const loginSchema = z.union([
+    z.object({ 
+        country_code: z.string().min(1, 'Country code is required'), 
+        mobile: z.string().min(1, 'Mobile number is required') 
+    }),
+    z.object({ 
+        email: z.string().email('Invalid email format'), 
+        password: z.string().min(6, 'Password must be at least 6 characters') 
+    })
+]);
+
 
 const verifyOtpSchema = z.object({
     country_code: z.string().min(1, 'Country code is required'),
@@ -28,16 +36,21 @@ const verifyOtpSchema = z.object({
 });
 
 const forgotPasswordSchema = z.object({
-    country_code: z.string().min(1, 'Country code is required'),
-    mobile: z.string().min(1, 'Mobile number is required')
+    email: z.string().email('Valid email is required')
+});
+
+
+const verifyForgotOtpSchema = z.object({
+    email: z.string().email('Valid email is required'),
+    otp: z.string().min(6, 'OTP must be 6 digits')
 });
 
 const resetPasswordSchema = z.object({
-    country_code: z.string().min(1, 'Country code is required'),
-    mobile: z.string().min(1, 'Mobile number is required'),
-    otp: z.string().min(1, 'OTP is required'),
+    email: z.string().email('Valid email is required'),
     newPassword: z.string().min(6, 'Password must be at least 6 characters')
 });
+
+
 
 export const validateAuth = (type) => (req, res, next) => {
     try {
@@ -57,6 +70,9 @@ export const validateAuth = (type) => (req, res, next) => {
                 break;
             case 'reset-password':
                 schema = resetPasswordSchema;
+                break;
+            case 'verify-forget-otp':
+                schema = verifyForgotOtpSchema;
                 break;
             default:
                 throw new Error('Invalid validation type');

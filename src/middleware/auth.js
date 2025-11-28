@@ -1,28 +1,77 @@
-import jwt from 'jsonwebtoken';
-import config from '../config/config.js';
-import logger from '../utils/logger.js';
+// import jwt from 'jsonwebtoken';
+// import config from '../config/config.js';
+// import logger from '../utils/logger.js';
+
+// export const verifyToken = (req, res, next) => {
+//     try {
+//         const authHeader = req.headers.authorization;
+
+//         if (!authHeader || !authHeader.startsWith('Bearer ')) {
+//             return res.status(401).json({
+//                 status: 'error',
+//                 message: 'No token provided'
+//             });
+//         }
+
+//         const token = authHeader.split(' ')[1];
+//         const decoded = jwt.verify(token, config.jwtSecret);
+
+//         req.user = decoded;
+//         next();
+//     } catch (error) {
+//         logger.error('Token verification error:', error);
+//         res.status(401).json({
+//             status: 'error',
+//             message: 'Invalid token'
+//         });
+//     }
+// }; 
+
+import jwt from "jsonwebtoken";
+import config from "../config/config.js";
+import logger from "../utils/logger.js";
 
 export const verifyToken = (req, res, next) => {
     try {
         const authHeader = req.headers.authorization;
 
-        if (!authHeader || !authHeader.startsWith('Bearer ')) {
+        if (!authHeader) {
             return res.status(401).json({
-                status: 'error',
-                message: 'No token provided'
+                status: "error",
+                message: "No token provided"
             });
         }
 
-        const token = authHeader.split(' ')[1];
-        const decoded = jwt.verify(token, config.jwtSecret);
+        const token = authHeader.split(" ")[1];
 
-        req.user = decoded;
-        next();
+        jwt.verify(token, config.jwtSecret, (err, decoded) => {
+
+            // Token expired
+            if (err && err.name === "TokenExpiredError") {
+                return res.status(401).json({
+                    status: "error",
+                    message: "Token expired"
+                });
+            }
+
+            // Token invalid
+            if (err) {
+                return res.status(401).json({
+                    status: "error",
+                    message: "Invalid token"
+                });
+            }
+
+            // Token correct → proceed
+            req.userId = decoded.userId;
+            next();
+        });
+
     } catch (error) {
-        logger.error('Token verification error:', error);
-        res.status(401).json({
-            status: 'error',
-            message: 'Invalid token'
+        logger.error("Token verification error:", error);
+        return res.status(500).json({
+            status: "error",
+            message: "Something went wrong"
         });
     }
-}; 
+};
