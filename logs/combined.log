@@ -106,3 +106,86 @@
 {"level":"info","message":"127.0.0.1 - - [27/Nov/2025:13:25:16 +0000] \"POST /Delivery/delivery/auth/refresh_token HTTP/1.1\" 200 255 \"-\" \"PostmanRuntime/7.49.1\"","timestamp":"2025-11-27T13:25:16.809Z"}
 {"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T08:47:27.492Z"}
 {"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T08:47:27.498Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T08:49:22.209Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T08:49:22.214Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T08:55:40.679Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T08:55:40.693Z"}
+{"code":"ETIMEDOUT","command":"CONN","level":"error","message":"Forgot password error: Greeting never received","stack":"Error: Greeting never received\n    at SMTPConnection._formatError (D:\\Mohit\\DeliveryBackend\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._onError (D:\\Mohit\\DeliveryBackend\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:795:20)\n    at Timeout.<anonymous> (D:\\Mohit\\DeliveryBackend\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:729:22)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2025-11-28T09:11:13.323Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:09:11:13 +0000] \"POST /Delivery/delivery/auth//forget_password HTTP/1.1\" 500 55 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T09:11:13.328Z"}
+{"code":"ETIMEDOUT","command":"CONN","level":"error","message":"Forgot password error: Greeting never received","stack":"Error: Greeting never received\n    at SMTPConnection._formatError (D:\\Mohit\\DeliveryBackend\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._onError (D:\\Mohit\\DeliveryBackend\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:795:20)\n    at Timeout.<anonymous> (D:\\Mohit\\DeliveryBackend\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:729:22)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2025-11-28T09:11:54.177Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:09:11:54 +0000] \"POST /Delivery/delivery/auth/forget_password HTTP/1.1\" 500 55 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T09:11:54.179Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T09:13:39.329Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T09:13:39.334Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:09:13:46 +0000] \"POST /Delivery/delivery/auth/forget_password HTTP/1.1\" 200 94 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T09:13:46.545Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:09:15:41 +0000] \"POST /Delivery/delivery/auth/forget_password HTTP/1.1\" 200 94 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T09:15:41.820Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:09:16:11 +0000] \"POST /Delivery/delivery/auth/verify_forget_otp HTTP/1.1\" 200 58 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T09:16:11.776Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T09:17:21.732Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T09:17:21.738Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:09:17:43 +0000] \"POST /Delivery/delivery/auth/reset_password HTTP/1.1\" 400 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T09:17:43.943Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:09:17:48 +0000] \"POST /Delivery/delivery/auth/reset_password HTTP/1.1\" 400 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T09:17:48.529Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T09:18:06.003Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T09:18:06.018Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T09:18:18.851Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T09:18:18.860Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:09:18:20 +0000] \"POST /Delivery/delivery/auth/reset_password HTTP/1.1\" 200 58 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T09:18:20.103Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:09:23:18 +0000] \"POST /Delivery/delivery/auth/verify_forget_otp HTTP/1.1\" 400 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T09:23:18.307Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:09:23:29 +0000] \"POST /Delivery/delivery/auth/verify_forget_otp HTTP/1.1\" 200 58 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T09:23:29.433Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T09:30:48.468Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T09:30:48.474Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T09:32:52.817Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T09:32:52.825Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T09:44:32.409Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T09:44:32.416Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T09:52:36.992Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T09:52:36.997Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T09:53:46.934Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T09:53:46.940Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T10:10:25.025Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T10:10:25.032Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T10:11:34.428Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T10:11:34.443Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T10:12:40.133Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T10:12:40.139Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T10:12:48.914Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T10:12:48.920Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T10:13:19.036Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T10:13:19.042Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T10:14:46.520Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T10:14:46.525Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T10:14:48.771Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T10:14:48.776Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T10:21:23.997Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T10:21:24.004Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T10:32:00.256Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T10:32:00.267Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T10:32:02.597Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T10:32:02.606Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T10:45:15.465Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T10:45:15.471Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T11:46:34.725Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T11:46:34.738Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T11:47:10.913Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T11:47:10.925Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T11:49:13.529Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T11:49:13.536Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T11:49:37.103Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T11:49:37.118Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T12:10:28.924Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T12:10:28.929Z"}
+{"level":"error","message":"Forgot password error: sendEmailOTP is not defined","stack":"ReferenceError: sendEmailOTP is not defined\n    at forgotPassword (file:///D:/Mohit/DeliveryBackend/src/controllers/adminAuthController.js:59:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2025-11-28T12:13:16.524Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:12:13:16 +0000] \"POST /Delivery/delivery/admin/forget_password HTTP/1.1\" 500 55 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T12:13:16.529Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T12:14:05.068Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T12:14:05.080Z"}
+{"level":"info","message":"127.0.0.1 - - [28/Nov/2025:12:15:16 +0000] \"POST /Delivery/delivery/admin/forget_password HTTP/1.1\" 200 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-11-28T12:15:16.766Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T12:16:23.410Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T12:16:23.416Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T12:16:30.912Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T12:16:30.920Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T12:16:48.182Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T12:16:48.197Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-28T12:27:51.601Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-28T12:27:51.606Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-29T05:20:50.347Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-29T05:20:50.361Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-11-29T05:36:01.665Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-11-29T05:36:01.671Z"}

@@ -6,11 +6,10 @@ const createAdmin = async () => {
   try {
     await mongoose.connect(config.mongoUri);
     const adminData = {
-      email: 'admin@gmail.com',
-      password: 'admin@12345',
+      email: 'mohitblackcube@gmail.com',
+      password: '123456',
       first_name: 'Admin',
       last_name: 'Admin',
-      role: 'super_admin'
     };
 
     const existingAdmin = await Admin.findOne({ email: adminData.email });
@@ -27,4 +26,4 @@ const createAdmin = async () => {
   }
 };
 
-createAdmin(); 
+export default createAdmin ;

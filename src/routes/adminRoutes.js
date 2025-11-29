@@ -1,11 +1,12 @@
 import express from 'express';
-import { adminLogin, forgotPassword, resetPassword } from '../controllers/adminAuthController.js';
-import { validateAuth } from '../middleware/validation.js';
+import { validateAuthAdmin } from '../middleware/validations/validationAdmin.js';
+import {adminLogin,forgotPassword,verifyForgotOtp,resetPassword} from '../controllers/adminAuthController.js'
  
 const router = express.Router();
 
-router.post('/login', validateAuth('login'), adminLogin);
-router.post('/forgot-password', validateAuth('forgot-password'), forgotPassword);
-router.post('/reset-password', validateAuth('reset-password'), resetPassword);
+router.post('/login', validateAuthAdmin('login'), adminLogin);
+router.post('/verify_otp', validateAuthAdmin('verify-forgot-otp'), verifyForgotOtp);
+router.post('/forget_password', validateAuthAdmin('forgot-password'), forgotPassword);
+router.post('/reset_password', validateAuthAdmin('reset-password'), resetPassword);
 
 export default router; 

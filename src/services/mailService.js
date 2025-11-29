@@ -2,19 +2,33 @@ import nodemailer from "nodemailer";
 import config from "../config/config.js";
 
 const transporter = nodemailer.createTransport({
-    host: config.email.host, 
-    port: config.email.port,            
-    secure: config.email.secure,
+    host: config.email.host,
+    port: config.email.port,
+    secure: true,
     auth: {
-        user: config.email.from, 
+        user: config.email.from,
         pass: config.email.password
+    },
+    tls: {
+        rejectUnauthorized: false
     }
 });
+
+
+// const transporter = nodemailer.createTransport({
+//     host: config.email.host, 
+//     port: config.email.port,            
+//     secure: config.email.secure,
+//     auth: {
+//         user: config.email.from, 
+//         pass: config.email.password
+//     }
+// });
 export const sendEmailOTP = async (to, otp) => {
     const mailOptions = {
         from: config.email.from,
         to,
-        subject: "Delivery Aap Ki - Password Reset OTP",
+        subject: "Delivery App - Password Reset OTP",
         html: `
         <div style="width:100%; background:#f5f5f5; padding:30px 0; font-family:Arial, sans-serif;">
             <div style="max-width:600px; margin:0 auto; background:#ffffff; border-radius:10px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.1);">

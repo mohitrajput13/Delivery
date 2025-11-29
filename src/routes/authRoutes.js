@@ -9,7 +9,7 @@ router.post('/login', validateAuth('login'), login);
 router.post('/verify_otp', validateAuth('verify-otp'), verifyOtp);
 router.post('/refresh_token', refreshToken);
 router.post('/verify_forget_otp',validateAuth('verify-forget-otp'),verifyForgotOtp);
-router.post('/forgot_password', validateAuth('forgot-password'), forgotPassword);
+router.post('/forget_password', validateAuth('forgot-password'), forgotPassword);
 router.post('/reset_password', validateAuth('reset-password'), resetPassword);
 
 export default router;

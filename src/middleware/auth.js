@@ -36,7 +36,7 @@ export const verifyToken = (req, res, next) => {
         const authHeader = req.headers.authorization;
 
         if (!authHeader) {
-            return res.status(401).json({
+            return res.status(200).json({
                 status: "error",
                 message: "No token provided"
             });
@@ -48,7 +48,7 @@ export const verifyToken = (req, res, next) => {
 
             // Token expired
             if (err && err.name === "TokenExpiredError") {
-                return res.status(401).json({
+                return res.status(200).json({
                     status: "error",
                     message: "Token expired"
                 });
@@ -56,7 +56,7 @@ export const verifyToken = (req, res, next) => {
 
             // Token invalid
             if (err) {
-                return res.status(401).json({
+                return res.status(200).json({
                     status: "error",
                     message: "Invalid token"
                 });
